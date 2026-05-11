@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Manuel Rebol — Systems Engineering student at UTN, specialized in Cybersecurity and Full Stack Development. Portfolio and contact." />
+  <meta name="keywords"
+    content="Manuel Rebol, Systems Engineer, Cybersecurity, Full Stack, UTN, Portfolio, Developer Argentina" />
+  <meta name="author" content="Manuel Rebol" />
+  <meta property="og:title" content="Manuel Rebol · Systems Engineer & Developer" />
+  <meta property="og:description"
+    content="Portfolio of Manuel Rebol — UTN Systems Engineering student, Cybersecurity Diplomatura, Full Stack Developer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ManuelRebol.github.io" />
+  <title>Manuel Rebol · Systems Engineer & Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Manuel Rebol - Home">MR</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#stack" class="nav-link">Stack</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <!-- Mobile overlay -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#stack" class="mobile-link">Stack</a></li>
+        <li><a href="#education" class="mobile-link">Education</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 class="hero-name fade-in-up" style="animation-delay:0.1s">Manuel Rebol</h1>
+        <p class="hero-tagline fade-in-up" style="animation-delay:0.2s">
+          <span class="tag-highlight">Systems Engineer</span>
+          <span class="tag-dot">·</span>
+          <span class="tag-highlight">Cybersecurity</span>
+          <span class="tag-dot">·</span>
+          <span class="tag-highlight">Full Stack Developer</span>
+        </p>
+        <p class="hero-desc fade-in-up" style="animation-delay:0.3s">
+          Final-year student at Universidad Tecnológica Nacional, passionate about building<br />
+          secure, scalable software and solving real-world problems with code.
+        </p>
+        <div class="hero-actions fade-in-up" style="animation-delay:0.4s">
+          <a href="#projects" class="btn btn-primary" id="hero-view-projects">View Projects ↓</a>
+          <a href="assets/img/cv.pdf" class="btn btn-secondary" id="hero-download-cv" download>Download CV</a>
+          <a href="#contact" class="btn btn-ghost" id="hero-contact">Contact Me</a>
+        </div>
+        <div class="hero-scroll-hint fade-in-up" style="animation-delay:0.6s" aria-hidden="true">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" aria-label="About Manuel Rebol">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-photo fade-in-up">
+            <div class="photo-wrapper">
+              <img src="assets/img/profile.jpeg" alt="Manuel Rebol — Systems Engineering student at UTN" />
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="section-label fade-in-up">About Me</p>
+            <h2 class="fade-in-up">Turning ideas into<br /><span class="text-accent">secure, real software.</span></h2>
+            <p class="about-body fade-in-up">
+              I'm a final-year Systems Engineering student at <strong>UTN (Universidad Tecnológica Nacional)</strong>,
+              with a strong foundation in software development and a deep interest in cybersecurity.
+              I completed a <strong>Diplomatura in Applied Cybersecurity</strong> at UTN, where I developed hands-on
+              skills in network security, ethical hacking, and vulnerability analysis.
+            </p>
+            <p class="about-body fade-in-up">
+              I love building full-stack applications that are not only functional but resilient and well-engineered.
+              I'm actively looking for my first professional opportunity to grow, contribute, and keep pushing my
+              limits.
+            </p>
+            <div class="about-stats fade-in-up">
+              <div class="stat">
+                <span class="stat-value">Final Year</span>
+                <span class="stat-label">Systems Engineering</span>
+              </div>
+              <div class="stat-divider" aria-hidden="true"></div>
+              <div class="stat">
+                <span class="stat-value">UTN</span>
+                <span class="stat-label">Universidad Tecnológica Nacional</span>
+              </div>
+              <div class="stat-divider" aria-hidden="true"></div>
+              <div class="stat">
+                <span class="stat-value">2</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" aria-label="Featured Projects">
+      <div class="container">
+        <p class="section-label fade-in-up">My Work</p>
+        <h2 class="fade-in-up">Featured <span class="text-accent">Projects</span></h2>
+        <p class="section-desc fade-in-up">Real projects built with real intent — from academic coursework to
+          collaborative apps.</p>
+        <div class="projects-grid">
+
+          <!-- Project 1: Kip -->
+          <article class="project-card fade-in-up" id="project-kip">
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">Kip</h3>
+                <p class="project-desc">Notes app built for the Information Systems Administration course at UTN.
+                  Focused on clean architecture, usability and persistence.</p>
+              </div>
+              <a href="https://github.com/ManuelRebol/Kip" target="_blank" rel="noopener noreferrer"
+                class="project-link" aria-label="View Kip on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-lang">Python</span>
+              <span class="tag tag-tool">SQLite</span>
+              <span class="tag tag-tool">REST API</span>
+              <span class="tag tag-web">Backend</span>
+            </div>
+            <div class="code-block">
+              <div class="code-header">
+                <span class="code-dot" style="background:#FF5F56"></span>
+                <span class="code-dot" style="background:#FFBD2E"></span>
+                <span class="code-dot" style="background:#27C93F"></span>
+                <span class="code-lang">Python</span>
+              </div>
+              <pre><code><span class="kw">@app.route</span>(<span class="str">'/notes'</span>, methods=[<span class="str">'GET'</span>])
+<span class="kw">def</span> <span class="fn">get_notes</span>():
+    notes = db.session.query(Note)\
+        .filter_by(user_id=current_user.id)\
+        .order_by(Note.updated_at.desc())\
+        .all()
+    <span class="kw">return</span> jsonify([n.to_dict() <span class="kw">for</span> n <span class="kw">in</span> notes])</code></pre>
+            </div>
+            <a href="https://github.com/ManuelRebol/Kip" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm" id="kip-github-btn">
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Project 2: EventHub -->
+          <article class="project-card fade-in-up" id="project-eventhub" style="animation-delay:0.15s">
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">EventHub</h3>
+                <p class="project-desc">Full-stack web application for event ticket sales. Handles event creation,
+                  browsing, seat management, and purchase flow end-to-end.</p>
+              </div>
+              <a href="https://github.com/SerraFacundo/eventhub" target="_blank" rel="noopener noreferrer"
+                class="project-link" aria-label="View EventHub on GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-web">JavaScript</span>
+              <span class="tag tag-web">Node.js</span>
+              <span class="tag tag-tool">PostgreSQL</span>
+              <span class="tag tag-lang">HTML/CSS</span>
+            </div>
+            <div class="code-block">
+              <div class="code-header">
+                <span class="code-dot" style="background:#FF5F56"></span>
+                <span class="code-dot" style="background:#FFBD2E"></span>
+                <span class="code-dot" style="background:#27C93F"></span>
+                <span class="code-lang">JavaScript</span>
+              </div>
+              <pre><code><span class="kw">async function</span> <span class="fn">purchaseTicket</span>(eventId, userId) {
+  <span class="kw">const</span> event = <span class="kw">await</span> Event.findById(eventId);
+  <span class="kw">if</span> (!event.hasAvailableSeats()) {
+    <span class="kw">throw new</span> Error(<span class="str">'No seats available'</span>);
+  }
+  <span class="kw">const</span> ticket = <span class="kw">await</span> Ticket.create({
+    eventId, userId, status: <span class="str">'confirmed'</span>
+  });
+  <span class="kw">return</span> ticket;
+}</code></pre>
+            </div>
+            <a href="https://github.com/SerraFacundo/eventhub" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline btn-sm" id="eventhub-github-btn">
+              View on GitHub →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECH STACK ===== -->
+    <section id="stack" aria-label="Tech Stack">
+      <div class="container">
+        <p class="section-label fade-in-up">Tools & Technologies</p>
+        <h2 class="fade-in-up">My <span class="text-accent">Tech Stack</span></h2>
+        <p class="section-desc fade-in-up">The languages, frameworks, and tools I work with.</p>
+        <div class="stack-grid fade-in-up">
+
+          <div class="stack-category">
+            <h4 class="stack-cat-label">Languages</h4>
+            <div class="stack-pills">
+              <span class="pill pill-lang">Python</span>
+              <span class="pill pill-lang">JavaScript</span>
+              <span class="pill pill-lang">SQL</span>
+              <span class="pill pill-lang">C</span>
+              <span class="pill pill-lang">Bash</span>
+            </div>
+          </div>
+
+          <div class="stack-category">
+            <h4 class="stack-cat-label">Web & Frameworks</h4>
+            <div class="stack-pills">
+              <span class="pill pill-web">HTML5</span>
+              <span class="pill pill-web">CSS3</span>
+              <span class="pill pill-web">Node.js</span>
+              <span class="pill pill-web">React</span>
+              <span class="pill pill-web">Flask</span>
+            </div>
+          </div>
+
+          <div class="stack-category">
+            <h4 class="stack-cat-label">Cybersecurity</h4>
+            <div class="stack-pills">
+              <span class="pill pill-sec">Network Security</span>
+              <span class="pill pill-sec">Ethical Hacking</span>
+              <span class="pill pill-sec">OWASP</span>
+              <span class="pill pill-sec">Linux</span>
+              <span class="pill pill-sec">Wireshark</span>
+            </div>
+          </div>
+
+          <div class="stack-category">
+            <h4 class="stack-cat-label">Tools & Infra</h4>
+            <div class="stack-pills">
+              <span class="pill pill-tool">Git</span>
+              <span class="pill pill-tool">GitHub</span>
+              <span class="pill pill-tool">Docker</span>
+              <span class="pill pill-tool">PostgreSQL</span>
+              <span class="pill pill-tool">SQLite</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION & CERTIFICATIONS ===== -->
+    <section id="education" aria-label="Education and Certifications">
+      <div class="container">
+        <p class="section-label fade-in-up">Formation</p>
+        <h2 class="fade-in-up">Education &amp; <span class="text-accent">Certifications</span></h2>
+
+        <div class="edu-grid">
+
+          <!-- Academic -->
+          <div class="edu-col">
+            <h3 class="edu-col-title fade-in-up">Academic</h3>
+            <div class="edu-card fade-in-up" id="edu-utn">
+              <div class="edu-card-accent" aria-hidden="true"></div>
+              <div class="edu-card-body">
+                <div class="edu-badge edu-badge-progress">In Progress</div>
+                <h4 class="edu-degree">Ingeniería en Sistemas de Información</h4>
+                <p class="edu-institution">Universidad Tecnológica Nacional</p>
+                <p class="edu-year">2020 — Present · Final Year</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div class="edu-col">
+            <h3 class="edu-col-title fade-in-up">Certifications</h3>
+
+            <div class="edu-card fade-in-up" id="cert-cybersec" style="animation-delay:0.1s">
+              <div class="edu-card-accent edu-card-accent--green" aria-hidden="true"></div>
+              <div class="edu-card-body">
+                <div class="edu-badge edu-badge-done">Completed</div>
+                <h4 class="edu-degree">Diplomatura en Ciberseguridad Aplicada</h4>
+                <p class="edu-institution">Universidad Tecnológica Nacional</p>
+                <p class="edu-year">2024</p>
+              </div>
+            </div>
+
+            <div class="edu-card fade-in-up" id="cert-fullstack" style="animation-delay:0.2s">
+              <div class="edu-card-accent edu-card-accent--green" aria-hidden="true"></div>
+              <div class="edu-card-body">
+                <div class="edu-badge edu-badge-done">Completed</div>
+                <h4 class="edu-degree">Programación FullStack</h4>
+                <p class="edu-institution">Course Certification</p>
+                <p class="edu-year">2024</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" aria-label="Contact Manuel Rebol">
+      <div class="container">
+        <p class="section-label fade-in-up">Get In Touch</p>
+        <h2 class="fade-in-up">Let's <span class="text-accent">Connect</span></h2>
+        <p class="section-desc fade-in-up">I'm open to new opportunities — whether it's a job, internship, or just a
+          conversation about tech.</p>
+
+        <div class="contact-grid">
+          <div class="contact-links fade-in-up">
+            <a href="mailto:manuel.rebol0103@gmail.com" class="contact-btn" id="contact-email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>manuel.rebol0103@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/manuelrebol/" target="_blank" rel="noopener noreferrer"
+              class="contact-btn" id="contact-linkedin" aria-label="Manuel Rebol on LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/ManuelRebol" target="_blank" rel="noopener noreferrer" class="contact-btn"
+              id="contact-github" aria-label="Manuel Rebol on GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <form class="contact-form fade-in-up" id="contact-form" action="mailto:manuel.rebol0103@gmail.com"
+            method="POST" enctype="text/plain" style="animation-delay:0.15s">
+            <div class="form-group">
+              <label for="form-name">Name</label>
+              <input type="text" id="form-name" name="name" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email</label>
+              <input type="email" id="form-email" name="email" placeholder="your@email.com" required
+                autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="5"
+                placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="contact-submit">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <span>© 2026 Manuel Rebol · GitHub Pages</span>
+      <a href="#hero" class="footer-back" aria-label="Back to top">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
